@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estlizando a página de login */
+body {
+    background-image: url(/img/img-de-fundo.png);
+    background-size: 100%;
+    
+}
+
+.corpo {
+    width: 400px;
+    height: 520px;
+    background: rgba(61, 0, 121, 0.59);
+    box-shadow: 4px 4px 8px rgb(107, 0, 183);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.corpo > h1 {
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.email {
+   text-align: center;
+}
+
+.email > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.senha {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.senha > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.esqueceu-a-senha  {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 60px;
+    color: white;
+    font-size: 15px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+} 
+
+.entrar {
+    background-color: rgba(0, 0, 0, 0.419);
+    text-align: center;
+    border-radius: 8px;
+    margin: 70px 60px 0px 60px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.entrar:hover {
+   background-color: black;
+}
+
+.saiba-mais {
+    font-size: 15px;
+    color: white;
+    margin: 10px 60px 0px 60px;
+    text-align: center;
+}
+
+p > a {
+    color: blue;
+}
+
+/* Estlizando a página de cadastro */
+.nome {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.nome > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+.email2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.email2 > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 10px;
+}
+.senha2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.senha2 > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 10px;
+}
+
+/* Estlizando a página de cadastro de mídia */
+.titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.categoria {
+    text-align: center;
+}
+
+.categoria > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.p {
+    color: white;
+    margin: 60px 200px 0 60px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 8px;
+}
+
+.p:hover {
+    background-color: black;
+}
+
+/* Estilizando página inicial */
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    align-items: center;
+    list-style: none;
+}
+
+.menu > li > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.idioma {
+    background: linear-gradient(247.54deg, #001431 0.63%, #6900AA 100%);
+    border-radius: 5px;
+    padding: 6px 15px;
+    font-size: 20px;
+}
+
+.conta {
+    background: linear-gradient(247.54deg, #001431 0.63%, #6900AA 100%);
+    border-radius: 5px;
+    padding: 6px 15px;
+    font-size: 20px;
+}
+
+.ent {
+    background: linear-gradient(247.54deg, #001431 0.63%, #6900AA 100%);
+    border-radius: 5px;
+    padding: 6px 15px;
+    font-size: 20px;
+}
+
+.cabecalho-index {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.cabecalho-index > img {
+   padding-left: 30px;
+}
+
+.cabecalho > img {
+    padding-left: 30px;
+}
+
+.body-index {
+    padding: 0;
+}
+
+.botoes {
+    margin-right: 30px;
+}
+
+.text > h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
