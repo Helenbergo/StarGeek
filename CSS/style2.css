@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C0C32;
+}
+
+.cabecalho-index {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-index > img {
+   padding-left: 30px;
+   padding-right: 60px;
+}
+
+.navegacao {
+    display: flex;
+} 
+
+.navegacao > li {
+    align-items: center;
+    list-style: none;
+}
+
+.navegacao > li > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 26px
+}
+
+.filmes:hover {
+    padding: 20px;
+    background-color: #040421;
+}
+.series:hover {
+    padding: 20px;
+    background-color: #040421;
+}
+.games:hover {
+    padding: 20px;
+    background-color: #040421;
+}
+.midia:hover {
+    padding: 20px;
+    background-color: #040421;
+}
+.novidades:hover {
+    padding: 20px;
+    background-color: #040421;
+}
+.favoritos:hover {
+    padding: 20px;
+    background-color: #040421;
+}
+
+.linha > hr {
+    background: linear-gradient(270deg, rgba(181, 87, 253, 0) 0%, #B658FF 50.81%, rgba(177, 78, 245, 0) 98.63%);
+    height: 6px;
+    border: 0;
+    margin-top: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.pesquisar-voltar {
+    display: flex;
+    list-style: none;
+}
+
+.icon1 {
+    color: white;
+    margin-left: 150px;
+    text-align: right;
+}
+.icon2 {
+    color: white;
+    margin-left: 30px;
+    text-align: right;
+}
+
+.film {
+    display: flex;
+    color: white;
+}
+.ser {
+    display: flex;
+    color: white;
+}
+.jogos {
+    display: flex;
+    color: white;
+}
+
+.film  {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.imgs1 > img {
+    height: 200px;
+    margin: 3px 8px 3px 8px;
+    box-shadow: 2px 2px 10px rgb(98, 46, 147);
+}
+.imgs1 {
+    margin: 20px;
+    display: flex;
+    overflow: scroll;
+}
+
+.imgs1::-webkit-scrollbar {
+    display: none;
+}
