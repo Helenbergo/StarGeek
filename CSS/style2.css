@@ -32,39 +32,34 @@ body {
     text-decoration: none;
     margin-right: 25px;
     margin-left: 25px;
-    font-size: 26px
+    font-size: 26px;
 }
 
+/* Estlizando botões de navegação */
 .filmes:hover {
-    padding: 20px;
-    background-color: #040421;
+    border-bottom: 3px solid #B658FF;
 }
 .series:hover {
-    padding: 20px;
-    background-color: #040421;
+    border-bottom: 3px solid #B658FF;
 }
 .games:hover {
-    padding: 20px;
-    background-color: #040421;
+    border-bottom: 3px solid #B658FF;
 }
 .midia:hover {
-    padding: 20px;
-    background-color: #040421;
+    border-bottom: 3px solid #B658FF;
 }
 .novidades:hover {
-    padding: 20px;
-    background-color: #040421;
+    border-bottom: 3px solid #B658FF;
 }
 .favoritos:hover {
-    padding: 20px;
-    background-color: #040421;
+    border-bottom: 3px solid #B658FF;
 }
 
 .linha > hr {
     background: linear-gradient(270deg, rgba(181, 87, 253, 0) 0%, #B658FF 50.81%, rgba(177, 78, 245, 0) 98.63%);
     height: 6px;
     border: 0;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .material-symbols-outlined {
@@ -80,45 +75,167 @@ body {
     list-style: none;
 }
 
+/* Estilizando ícones "pesquisar" e "voltar" */
 .icon1 {
     color: white;
     margin-left: 150px;
     text-align: right;
+}
+.icon1:hover {
+    color: #B658FF;
 }
 .icon2 {
     color: white;
     margin-left: 30px;
     text-align: right;
 }
+.icon2:hover {
+    color: #B658FF;
+}
 
+/* Estlizando subtítulos */
 .film {
     display: flex;
     color: white;
+    margin-top: 40px;
+    margin-left: 90px;
 }
+
+.film:hover {
+    color: #B658FF;
+}
+
 .ser {
     display: flex;
     color: white;
+    margin-top: 40px;
+    margin-left: 90px;
 }
+
+.ser:hover {
+    color: #B658FF;
+}
+
 .jogos {
     display: flex;
     color: white;
+    margin-top: 40px;
+    margin-left: 90px;
 }
 
-.film  {
-    margin-top: 40px;
-    margin-left: 20px;
+.jogos:hover {
+    color: #B658FF;
 }
+
+/* Estlizando imagens */
 .imgs1 > img {
     height: 200px;
-    margin: 3px 8px 3px 8px;
-    box-shadow: 2px 2px 10px rgb(98, 46, 147);
+    margin: 3px 8px 20px 8px;
+    box-shadow: 2px 2px 10px rgb(192, 124, 255);
 }
 .imgs1 {
-    margin: 20px;
+    margin: 20px 90px 20px 90px;
+    display: flex;
+    overflow: scroll;
+}
+.imgs1::-webkit-scrollbar {
+    display: none;
+}
+.imgs2 > img {
+    height: 200px;
+    margin: 3px 8px 20px 8px;
+    box-shadow: 2px 2px 10px rgb(192, 124, 255);
+}
+.imgs2 {
+    margin: 20px 90px 20px 90px;
+    display: flex;
+    overflow: scroll;
+}
+.imgs2::-webkit-scrollbar {
+    display: none;
+}
+.imgs3 > img {
+    height: 190px;
+    margin: 3px 8px 20px 8px;
+    box-shadow: 2px 2px 10px rgb(192, 124, 255);
+}
+.imgs3 {
+    margin: 20px 90px 20px 90px;
     display: flex;
     overflow: scroll;
 }
 
-.imgs1::-webkit-scrollbar {
+ /* Estlizando botão de rolagem */
+.imgs3::-webkit-scrollbar {
     display: none;
 }
+
+/* Estilizando rodapé */
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.p1 {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.p2 {
+    margin-right: 5px;
+    border: 2px solid white;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.p3 {
+    font-size: 20px;
+}
+
+/* Estlizando gifs */
+.gif1:hover {
+    content: url(/img/gif1.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif2:hover {
+    content: url(/img/gif2.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif3:hover {
+    content: url(/img/gif3.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif4:hover {
+    content: url(/img/gif4.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif5:hover {
+    content: url(/img/gif5.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif6:hover {
+    content: url(/img/gif6.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif7:hover {
+    content: url(/img/gif7.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif8:hover {
+    content: url(/img/gif8.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+.gif9:hover {
+    content: url(/img/gif9.gif);
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+

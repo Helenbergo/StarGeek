@@ -198,6 +198,7 @@ p > a {
     font-size: 26px;
 }
 
+/* Estilizando botões de navegação*/
 .idioma {
     background: linear-gradient(247.54deg, #001431 0.63%, #6900AA 100%);
     border-radius: 5px;
@@ -205,7 +206,7 @@ p > a {
 }
 
 .idioma:hover {
-    font-size: 24px;
+    background: #8b2dea;
 }
 
 .conta {
@@ -215,7 +216,7 @@ p > a {
 }
 
 .conta:hover {
-    font-size: 24px;
+    background: #8b2dea;
 }
 
 .ent {
@@ -225,7 +226,7 @@ p > a {
 }
 
 .ent:hover {
-    font-size: 24px;
+    background: #8b2dea;
 }
 
 .cabecalho-inicial {
@@ -333,3 +334,17 @@ p > a {
     border: 0;
     margin-top: 10px;
 }
+
+/* Estlizando botão "voltar" */
+.voltar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voltar > a > p {
+    font-size: 25px;
+    color: white;
+    margin-right: 40px;
+}
+
