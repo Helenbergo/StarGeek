@@ -5,7 +5,7 @@
 }
 
 /* Estlizando a página de login */
-body {
+.body1 {
     background-image: url(/img/img-de-fundo.png);
     background-size: 100%;
 }
@@ -173,8 +173,7 @@ p > a {
 /* Estilizando página inicial */
 .p-inicial {
     padding: 0;
-    background-image: url(/img/img-de-fundo2.png);
-    background-repeat: no-repeat;
+    background-color: #030321;
 }
 
 .menu {

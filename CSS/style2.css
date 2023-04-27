@@ -199,46 +199,57 @@ body {
 
 /* Estlizando gifs */
 .gif1:hover {
+    width: 300px;
+    height: 195px;
     content: url(/img/gif1.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
 }
 .gif2:hover {
+    width: 300px;
+    height: 195px;
     content: url(/img/gif2.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
 }
-.gif3:hover {
-    content: url(/img/gif3.gif);
-    transform: scale(1.1);
-    transition: transform 1s ease;
-}
 .gif4:hover {
+    width: 300px;
+    height: 195px;
     content: url(/img/gif4.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
 }
 .gif5:hover {
+    width: 300px;
+    height: 195px;
     content: url(/img/gif5.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
 }
 .gif6:hover {
+    width: 300px;
+    height: 195px;
     content: url(/img/gif6.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
 }
 .gif7:hover {
+    width: 300px;
+    height: 195px;
     content: url(/img/gif7.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
 }
 .gif8:hover {
+    width: 300px;
+    height: 190px;
     content: url(/img/gif8.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
 }
 .gif9:hover {
+    width: 300px;
+    height: 195px;
     content: url(/img/gif9.gif);
     transform: scale(1.1);
     transition: transform 1s ease;
