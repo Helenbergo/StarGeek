@@ -6,7 +6,7 @@
 
 /* Estlizando a página de login */
 .body1 {
-    background-image: url(/img/img-de-fundo.png);
+    background-image: url(../img/img-de-fundo.png);
     background-size: 100%;
 }
 
@@ -248,7 +248,8 @@ p > a {
 }
 
 .text > h1 {
-    color:#c06eff;
+    color:#c77dff;
+    text-shadow: 4px 4px 10px #9810ff;
     font-size: 60px;
     text-align: center;
     margin: 100px 250px 0 250px;
@@ -266,7 +267,7 @@ p > a {
     background: rgb(255,255,255);
     background: linear-gradient(270deg, rgba(181, 87, 253, 0) 0%, #B658FF 50.81%, rgba(177, 78, 245, 0) 98.63%);
     height: 6px;
-    margin-top: 230px;
+    margin-top: 255px;
     margin-bottom: 40px;
 }
 
