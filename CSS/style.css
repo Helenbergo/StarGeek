@@ -248,8 +248,8 @@ p > a {
 }
 
 .text > h1 {
-    color: white;
-    font-size: 70px;
+    color:#c06eff;
+    font-size: 60px;
     text-align: center;
     margin: 100px 250px 0 250px;
 }
