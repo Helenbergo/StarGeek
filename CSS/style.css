@@ -172,8 +172,10 @@ p > a {
 
 /* Estilizando página inicial */
 .p-inicial {
-    padding: 0;
-    background-color: #030321;
+    padding: 0;  
+    background: rgb(77,0,147);
+    background: linear-gradient(40deg, rgba(77,0,147,1) 0%, rgba(2,0,4,1) 100%);
+    
 }
 
 .menu {
@@ -264,7 +266,7 @@ p > a {
     background: rgb(255,255,255);
     background: linear-gradient(270deg, rgba(181, 87, 253, 0) 0%, #B658FF 50.81%, rgba(177, 78, 245, 0) 98.63%);
     height: 6px;
-    margin-top: 450px;
+    margin-top: 200px;
     margin-bottom: 40px;
 }
 
