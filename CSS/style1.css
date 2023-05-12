@@ -1,0 +1,108 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.secao {
+    width: 400px;
+    height: 520px;
+    background: rgba(61, 0, 121, 0.59);
+    box-shadow: 4px 4px 8px rgb(107, 0, 183);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.secao > h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.nome {
+    text-align: center;
+ }
+ 
+.nome > input {
+     background: rgba(247, 247, 247, 0.792);
+     width: 280px;
+     height: 40px;
+     border-radius: 8px;
+     border: 0;
+     padding-left: 15px;
+}
+
+.nome {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nome > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.email {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.email > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.senha {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.senha > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.entrar {
+    background-color: rgba(0, 0, 0, 0.419);
+    text-align: center;
+    border-radius: 8px;
+    margin: 70px 60px 0px 60px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.entrar:hover {
+   background-color: black;
+}
+
+.entrar > a {
+    text-decoration: none;
+    color: white;
+}

@@ -5,49 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style4.css">
 </head>
-<body class="body1">
-
-    <div class="cabecalho">
-
-        <div class="voltar">
+<body>
+    
+    <header>
+        <nav class="botoes">
             <img src="./img/logo.png" alt="">
-            <a href="index.html"><p>Voltar</p></a>
+            <a href="index.html"><img src="./img/voltar.png" alt=""></a>
+        </nav>
+    </header>
+
+    <section class="secao">
+        <h1>Login</h1>
+        <div class="email">
+            <input type="email" placeholder="Insira o email">
         </div>
 
-        <div class="corpo">
-
-            <h1>Login</h1>
-
-            <div class="email">
-                <input type="email" placeholder="Insira o email">
-            </div>
-
-            <div class="senha">
-                <input type="password" placeholder="Insira a senha">
-            </div>
-
-            <div class="esqueceu-a-senha">
-                <a href="#">Esqueceu a senha?</a>
-            </div>
-
-            <div class="entrar">
-                <a href="catalogo.html">Entrar</a>
-            </div>
-
-            <div class="saiba-mais">
-
-            <p>Essa página é protegida pelo Google reCAPTCHA.
-                <a href="#">Saiba mais</a>
-            </p>
-
-            </div>
-
+        <div class="senha">
+            <input type="password" placeholder="Insira a senha">
         </div>
-        
-    </div>
 
+        <div class="lembre-se">
+            <input type="checkbox">Lembre-se de mim
+        </div>
 
+        <div class="entrar">
+            <a href="catalogo.html" class="a">Entrar</a>
+        </div>
+
+        <div class="saiba-mais">
+
+        <p class="criar-conta">
+            <a href="cadastro.html">Cadastre-se agora!</a>
+        </p>
+
+        <p>Essa página é protegida pelo Google reCAPTCHA.
+            <a href="#">Saiba mais</a>
+        </p>
+    </section>
 </body>
 </html>

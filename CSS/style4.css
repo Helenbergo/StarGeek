@@ -1,0 +1,110 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+
+.secao {
+    width: 400px;
+    height: 520px;
+    background: rgba(61, 0, 121, 0.59);
+    box-shadow: 4px 4px 8px rgb(107, 0, 183);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: -40px;
+}
+
+.secao > h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.email {
+    text-align: center;
+ }
+ 
+.email > input {
+     background: rgba(247, 247, 247, 0.792);
+     width: 280px;
+     height: 40px;
+     border-radius: 8px;
+     border: 0;
+     padding-left: 15px;
+}
+
+.senha {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.senha > input {
+    background: rgba(247, 247, 247, 0.792);
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 15px;
+}
+
+.lembre-se  {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+} 
+
+.entrar {
+    background-color: rgba(0, 0, 0, 0.419);
+    text-align: center;
+    border-radius: 8px;
+    margin: 50px 60px 0px 60px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.entrar:hover {
+   background-color: black;
+}
+
+.criar-conta {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.criar-conta > a {
+    text-decoration: none;
+}
+
+.saiba-mais {
+    font-size: 15px;
+    color: white;
+    margin: 10px 60px 0px 60px;
+    text-align: center;
+}
+
+p > a {
+    color: blue;
+}
