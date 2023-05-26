@@ -60,15 +60,6 @@ header {
     margin-top: -10px;
 }
 
-h2 {
-    color: white;
-    margin-left: 70px;
-}
-
-h2:hover {
-    color: #9029ff;
-}
-
 .imgs1 > img {
     height: 200px;
     width: 360px;
@@ -84,36 +75,11 @@ h2:hover {
     display: none;
 }
 
-.section {
-    display: flex;
-    overflow: scroll;
-}
-
-.section::-webkit-scrollbar {
-    display: none;
-}
-
-.porGenero {
-    display: flex;
-    background-color: aliceblue;
-    width: 200px;
-    height: 200px;
-    margin-right: 50px;
-    margin-left: 10px;
-    margin-bottom: 50px;
-}
-.rodape {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+h2 {
     color: white;
-}
-.p1 {
-    margin-right: 5px;
-    font-size: 20px;
+    margin-left: 70px;
 }
 
-.p3 {
-    font-size: 20px;
+h2:hover {
+    color: #9029ff;
 }
