@@ -83,3 +83,22 @@ h2 {
 h2:hover {
     color: #9029ff;
 }
+
+.section {
+    display: flex;
+    overflow: scroll;
+}
+
+.section::-webkit-scrollbar {
+    display: none;
+}
+
+.porGenero {
+    display: flex;
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
