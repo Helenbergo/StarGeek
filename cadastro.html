@@ -7,6 +7,7 @@
     <title>StarGeek</title>
     <link rel="stylesheet" href="CSS/style1.css">
     <link rel="icon" href="/img/icon.png">
+    <script src="js/cadastro.js"></script>
 </head>
 <body>
     
@@ -21,23 +22,27 @@
         <h1>Cadastro de usuário</h1>
 
         <div class="nome">
-            <input type="nome" placeholder="Nome">
+            <input type="nome" placeholder="Nome"  id="nome">
         </div>
 
+    <!--Inserir email-->
         <div class="email">
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" id="email">
         </div>
 
+    <!--Inserir senha-->
         <div class="senha">
-            <input type="password" placeholder="Senha">
+            <input type="password" placeholder="Senha" id="senha">
         </div>
 
+    <!--Confirmar senha-->
         <div class="senha">
-            <input type="password" placeholder="Confirme a senha">
+            <input type="password" placeholder="Confirme a senha" id="confSenha">
         </div>
 
-        <div class="entrar">
-            <a href="catalogo.html">Entrar</a>
+    <!--Botão entrar-->
+        <div class="entrar" onclick="Entrar()">
+            Entrar
         </div>
 
     </section>

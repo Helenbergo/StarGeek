@@ -90,6 +90,7 @@ body {
 }
 
 .entrar {
+    color: white;
     background-color: rgba(0, 0, 0, 0.419);
     text-align: center;
     border-radius: 8px;
