@@ -60,6 +60,13 @@ header {
     margin-top: -10px;
 }
 
+.linha2 > hr {
+    background: linear-gradient(270deg, rgba(181, 87, 253, 0) 0%, #B658FF 50.81%, rgba(177, 78, 245, 0) 98.63%);
+    height: 6px;
+    border: 0;
+    margin-bottom: 40px;
+}
+
 h2 {
     color: white;
     margin-left: 70px;
@@ -73,7 +80,7 @@ h2:hover {
     height: 200px;
     width: 360px;
     margin-left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .imgs1 {
@@ -116,4 +123,8 @@ h2:hover {
 
 .p3 {
     font-size: 20px;
+}
+
+.border-bottom {
+    border-bottom: 3px solid #7b00ff;
 }

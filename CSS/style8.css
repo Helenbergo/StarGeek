@@ -60,26 +60,9 @@ header {
     margin-top: -10px;
 }
 
-.linha2 > hr {
-    background: linear-gradient(270deg, rgba(181, 87, 253, 0) 0%, #B658FF 50.81%, rgba(177, 78, 245, 0) 98.63%);
-    height: 6px;
-    border: 0;
-    margin-bottom: 40px;
-}
-
-.imgs1 > img {
-    height: 200px;
-    width: 360px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
 .imgs1 {
     display: flex;
-    overflow: scroll;
-}
-.imgs1::-webkit-scrollbar {
-    display: none;
+    flex-wrap: wrap;
 }
 
 h2 {
@@ -89,15 +72,6 @@ h2 {
 
 h2:hover {
     color: #9029ff;
-}
-
-.section {
-    display: flex;
-    overflow: scroll;
-}
-
-.section::-webkit-scrollbar {
-    display: none;
 }
 
 .porGenero {
@@ -112,6 +86,7 @@ h2:hover {
 
 .div {
     margin-left: 25px;
+    margin-bottom: 20px;
 }
 
 .border-bottom {

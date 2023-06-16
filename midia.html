@@ -7,6 +7,7 @@
     <title>StarGeek</title>
     <link rel="stylesheet" href="CSS/style5.css">
     <link rel="icon" href="/img/icon.png">
+    
 </head>
 <body>
     
@@ -21,22 +22,21 @@
         <h1>Nova mídia</h1>
       
         <div class="titulo">
-            <input type="text" placeholder="Título">
+            <input type="text" placeholder="Título" id="nomeFilme">
         </div>
 
-        <div class="sinopse">
-            <input type="text" placeholder="Sinopse">
+        <div class="avaliacao">
+            <input type="text" placeholder="Insira aqui o link da imagem" id="linkImg" onkeyup="exibirFoto()">
         </div>
 
-        <div class="p">
-            <input type="file">
-        </div>
+        <img class="img" src="" id="foto">
 
-        <div class="cadastrar">
-            <a href="catalogo.html">Cadastrar</a>
-        </div>
-        
+        <button class="cadastrar" onclick="NovoFilme()">
+            Cadastrar
+        </button>
+    
     </section>
 
 </body>
+<script src="/js/midia.js"></script>
 </html>

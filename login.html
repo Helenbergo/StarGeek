@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarGeek</title>
     <link rel="stylesheet" href="CSS/style4.css">
+    <script src="js/cadastro-login.js"></script>
 </head>
 <body>
     
@@ -19,30 +20,30 @@
     <section class="secao">
         <h1>Login</h1>
         <div class="email">
-            <input type="email" placeholder="Insira o email">
+            <input type="email" placeholder="Insira o email" id="emailLogin">
         </div>
 
         <div class="senha">
-            <input type="password" placeholder="Insira a senha">
+            <input type="password" placeholder="Insira a senha" id="senhaLogin">
         </div>
 
         <div class="lembre-se">
             <input type="checkbox">Lembre-se de mim
         </div>
 
-        <div class="entrar">
-            <a href="catalogo.html" class="a">Entrar</a>
-        </div>
-
-        <div class="saiba-mais">
+        <button class="entrar" onclick="EntrarLogin()">
+            Entrar
+        </button>
 
         <p class="criar-conta">
             <a href="cadastro.html">Cadastre-se agora!</a>
         </p>
 
-        <p>Essa página é protegida pelo Google reCAPTCHA.
-            <a href="#">Saiba mais</a>
-        </p>
+        <div class="saiba-mais">
+            <p>Essa página é protegida pelo Google reCAPTCHA.
+                <a href="#">Saiba mais</a>
+            </p>
+        </div>
     </section>
 </body>
 </html>

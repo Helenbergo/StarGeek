@@ -47,15 +47,15 @@ body {
      padding-left: 15px;
 }
 
-.sinopse {
+.avaliacao {
     text-align: center;
     margin-top: 30px;
 }
 
-.sinopse > input {
+.avaliacao > input {
     background: rgba(247, 247, 247, 0.792);
     width: 280px;
-    height: 80px;
+    height: 40px;
     border-radius: 8px;
     border: 0;
     padding-left: 15px;
@@ -67,19 +67,21 @@ body {
 }
 
 .cadastrar {
+    color: white;
     background-color: rgba(0, 0, 0, 0.419);
     text-align: center;
     border-radius: 8px;
-    margin: 70px 60px 0px 60px;
+    margin: 70px 60px 0 60px;
+    border: 0;
     font-size: 25px;
-    padding: 10px;
+    padding: 10px 85px;
 }
 
-.cadastrar:hover {
+button:hover {
    background-color: black;
 }
 
-.cadastrar > a {
-    text-decoration: none;
-    color: white;
+.img {
+    width: 225px;
+    margin: 20px 85px 0 85px;
 }
